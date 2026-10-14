@@ -37,8 +37,8 @@
             jakarta.activation;version="${cxf.osgi.jakarta.activation.version}",
             org.springframework*;resolution:="optional";version="${cxf.osgi.spring.version}",
             jakarta.validation*;resolution:=optional;version="${cxf.validation.api.package.version}",
-            jakarta.ws.rs.client;version="[3,4)",
-            jakarta.ws.rs*;version="[3,4)",
+            jakarta.ws.rs.client;version="[4,5)",
+            jakarta.ws.rs*;version="[4,5)",
             jakarta.xml.bind*;version="${cxf.osgi.jakarta.bind.version}",
             jakarta.annotation*;version="${cxf.osgi.jakarta.annotation.version}"
         </cxf.osgi.import>

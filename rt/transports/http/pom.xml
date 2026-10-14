@@ -38,7 +38,8 @@
             org.springframework*;resolution:="optional";version="${cxf.osgi.spring.version}",
             jakarta.xml.bind*;version="${cxf.osgi.jakarta.bind.version}",
             jakarta.activation;version="${cxf.osgi.jakarta.activation.version}",
-            com.sun.activation.registries;resolution:=optional
+            com.sun.activation.registries;resolution:=optional,
+            org.bouncycastle.jsse;resolution:=optional
         </cxf.osgi.import>
         <cxf.osgi.export>
             org.apache.cxf.transports.http*,

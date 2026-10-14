@@ -36,7 +36,7 @@
         <cxf.osgi.import>
             jakarta.servlet*;version="${cxf.osgi.jakarta.servlet.version}",
             jakarta.enterprise*;version="${cxf.osgi.cdi.version}",
-            jakarta.ws.rs*;version="[3,4)",
+            jakarta.ws.rs*;version="[4,5)",
             org.apache.cxf.interceptor;resolution:=optional
         </cxf.osgi.import>
         <cxf.osgi.export>
